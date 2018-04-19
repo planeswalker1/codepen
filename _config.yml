@@ -1,0 +1,2 @@
+baseurl: '/Codepen'
+exclude: ['README.md', '.gitignore']
