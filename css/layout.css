@@ -1,28 +1,26 @@
+/* container styles */
 .container {
   max-width: 1360px;
   margin: 0 auto;
 }
 
-/* header styles */
 .codepen {
+  color: #fff;
   display: grid;
   grid-template-rows: auto 1fr 1fr auto;
 
   height: 100vh;
 }
 
+/* just for highlighting sections */
 .codepen > * {
   border: 1px solid #000;
 }
 
-.code {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-}
-
+/* header styles */
 .pen {
   background-color: #000;
-  border-bottom: 3px solid #343436;;
+  border-bottom: 3px solid #343436;
   color: #fff;
 
   display: grid;
@@ -32,6 +30,46 @@
   grid-gap: 10px;
 
   padding: 10px;
+}
+
+/* editor styles */
+.code {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: #1b2b34;
+}
+
+.editor {
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
+
+.editor__header {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  grid-gap: 5px;
+  align-items: center;
+
+  padding: 5px;
+}
+
+.editor__code {
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+
+.editor__number {
+  display: block;
+  padding: 0 10px;
+}
+
+.editor__input {
+  resize: none;
+  border: 0;
+  background: none;
+  color: grey;
+  font-size: 1em;
+  line-height: 19px;
 }
 
 /* button styles */
