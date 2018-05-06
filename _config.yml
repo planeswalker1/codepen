@@ -1,2 +1,2 @@
-baseurl: '/Codepen'
+baseurl: '/codepen'
 exclude: ['README.md', '.gitignore']
